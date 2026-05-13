@@ -76,7 +76,8 @@
     "@radix-ui/react-id": "1.1.0",
     "caniuse-lite": "1.0.30001655",
     "wrap-ansi-cjs": "npm:wrap-ansi@^7.0.0",
-    "wrap-ansi": "npm:wrap-ansi@^7.0.0"
+    "wrap-ansi": "npm:wrap-ansi@^7.0.0",
+    "linkifyjs": ">=4.3.2"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.5",
@@ -117,7 +118,7 @@
     "linkify-element": "4.1.3",
     "linkify-react": "4.1.3",
     "linkify-string": "4.1.3",
-    "linkifyjs": "4.1.3",
+    "linkifyjs": ">=4.3.2",
     "lodash": "^4.17.20",
     "maplibre-gl": "^2.0.0",
     "matrix-encrypt-attachment": "^1.0.3",
@@ -255,5 +256,8 @@
     "outputDirectory": "coverage",
     "outputName": "jest-sonar-report.xml",
     "relativePaths": true
+  },
+  "overrides": {
+    "linkifyjs": ">=4.3.2"
   }
 }
